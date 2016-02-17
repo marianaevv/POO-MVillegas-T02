@@ -25,7 +25,7 @@ public class ProductosCongelados extends Productos {
     }
     /**
      * Metodo que devuelve la temperatura de congelamiento 
-     * @return 
+     * @return double
      */
     public double getTemp (){
         return this.tempcong;

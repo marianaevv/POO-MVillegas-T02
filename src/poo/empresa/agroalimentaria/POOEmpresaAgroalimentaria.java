@@ -32,7 +32,7 @@ public class POOEmpresaAgroalimentaria {
         
         System.out.println("El equipo utilizado para congelar por aire es: "+ fresas.getEquipoCongelacion());
         System.out.println("La cantidad de liquido dentro del fruto es: " +moras.getCantidadliquido() + "ml" );
-        System.out.println("El tipo de congelacion por nitrogeno que se utilizará es; " + zarzamora.getTipoCongelacion());
+        System.out.println("El tipo de congelacion por nitrogeno que se utilizará es; " + zarzamora.getMetodoCongelacion());
         
         
         System.out.println("Esta es la informacion de los articulos frescos");

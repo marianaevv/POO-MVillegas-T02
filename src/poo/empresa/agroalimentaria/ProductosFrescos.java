@@ -17,6 +17,10 @@ public class ProductosFrescos extends Productos {
         super(fechacaducidad, lote);
         this.procedimientoproduccion = procedimientoproduccion;
     }
+    /**
+     * Metodo que sirve para obtener el tipo de procedimiento que se utilizo en la produccion de los alimentos frescos 
+     * @return cadena
+     */
     public String getProcedimiento () {
             return this.procedimientoproduccion;
 }

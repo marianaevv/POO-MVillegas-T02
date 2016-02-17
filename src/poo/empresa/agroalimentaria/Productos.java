@@ -23,9 +23,17 @@ public class Productos {
         this.fechacaducidad = fechacaducidad;
         this.lote = lote;
     }
+    /**
+     * 
+     * @return regresa la caducidad de la fecha
+     */
     public String getFecha (){
         return this.fechacaducidad;
      }
+    /**
+     * 
+     * @return el lote del producto
+     */
     public int getLote (){
         return this.lote;
     }
