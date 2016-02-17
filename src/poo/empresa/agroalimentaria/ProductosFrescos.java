@@ -11,7 +11,7 @@ package poo.empresa.agroalimentaria;
  */
 public class ProductosFrescos extends Productos {
     
-    private final String procedimientoproduccion;
+    protected final String procedimientoproduccion;
     
     public ProductosFrescos(String fechacaducidad, int lote, String procedimientoproduccion) {
         super(fechacaducidad, lote);

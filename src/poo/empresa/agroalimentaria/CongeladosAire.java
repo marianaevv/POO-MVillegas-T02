@@ -10,7 +10,7 @@ package poo.empresa.agroalimentaria;
  * @author Mariana Villegas
  */
 public class CongeladosAire extends ProductosCongelados {
-       private final String equipo;
+       protected final String equipo;
     /**
      * 
      * @param fechacaducidad

@@ -10,7 +10,7 @@ package poo.empresa.agroalimentaria;
  * @author Mariana Villegas
  */
 public class ProductosRefrigerados extends Productos {
-    private final String composicion;
+    protected final String composicion;
     /**
      * 
      * @param fechacaducidad

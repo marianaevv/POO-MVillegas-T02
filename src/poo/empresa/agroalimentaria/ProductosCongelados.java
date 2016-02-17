@@ -11,7 +11,7 @@ package poo.empresa.agroalimentaria;
  */
 public class ProductosCongelados extends Productos {
     //Productos Congelados  
-    private final double tempcong;
+    protected final double tempcong;
     /**
      * Constructor
      * @param fechacaducidad

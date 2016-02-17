@@ -10,7 +10,7 @@ package poo.empresa.agroalimentaria;
  * @author Mariana Villegas
  */
 public class CongeladosNitrogeno extends ProductosCongelados {
-    private final String tipocongelacion;
+    protected final String tipocongelacion;
     /**
      * 
      * @param fechacaducidad

@@ -10,7 +10,7 @@ package poo.empresa.agroalimentaria;
  * @author Mariana Villegas
  */
 public class CongeladosAgua extends ProductosCongelados {
-    private final double liquidoproducto;
+    protected final double liquidoproducto;
     /**
      * 
      * @param fechacaducidad
